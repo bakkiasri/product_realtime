@@ -61,8 +61,8 @@ const ProductDetails = () => {
 
       {/* Details Section */}
       <div className="flex flex-col bg-indigo-800 md:flex-row items-center justify-center w-full min-h-screen py-10 p-6">
-        <div className="flex bg-white p-4 rounded-2xl">
-          <div className="flex-shrink-0 p-4 flex items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  bg-white md:p-4 rounded-2xl">
+          <div className=" justify-center items-center flex flex-col gap-0 md:gap-5 bg-white  ">
             <img
               src={product.thumbnail}
               alt={product.title}
@@ -70,7 +70,7 @@ const ProductDetails = () => {
             />
           </div>
 
-          <div className="flex justify-center items-center flex-col gap-5 bg-white border-s-2 border-gray-300 p-6 md:ml-8 mt-6 md:mt-0 max-w-lg">
+          <div className="flex-2 justify-center items-center  sm:flex-col gap-5 bg-white border-s-2 border-gray-300 p-6 md:ml-8 mt-6 md:mt-0 max-w-lg">
             <p className="text-indigo-800 text-center font-medium text-4xl leading-relaxed">
               {product.title}
             </p>

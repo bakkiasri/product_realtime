@@ -11,7 +11,9 @@ function Contact() {
 
     <div className="flex-1 justify-center items-center px-2 md:px-25 p-4">
       <h2 className='text-4xl font-medium text-[#100B39] mb-4'>Contact Us</h2>
-       
+      <h5 className='text-lg font-medium text-[#100B39] mb-4'>1234 Maplewood Lane</h5>
+      <h5 className='text-lg font-medium text-[#100B39] mb-4'> Springfield, IL 62704</h5>
+      <h5 className='text-lg font-medium text-[#100B39] mb-4'>United States</h5>
       </div>
     <div className="flex-1 mx-2 justify-center items-center mt-10  md:mx-25 ">
            <form className="space-y-5 ps-0 me-5 ">
