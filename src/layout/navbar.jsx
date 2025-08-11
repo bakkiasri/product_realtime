@@ -1,5 +1,5 @@
 import React from "react";
-import logoImg from '../assets/p_images.png';
+import logoImg from '../assets/p_logo.avif';
 import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
