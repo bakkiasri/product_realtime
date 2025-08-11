@@ -25,7 +25,7 @@ function Login() {
 
   return (
     <div className="flex flex-col bg-[#E7E2FF] md:flex-row items-center justify-center w-full min-h-screen py-10 p-6">
-      <div className="flex bg-white rounded-2xl">
+      <div className="flex bg-white shadow-2xl rounded-2xl">
         {/* Form Section */}
         <div className="flex p-10 rounded-2xl justify-center bg-white items-center flex-col gap-5  max-w-lg">
           <form onSubmit={handleSubmit} className="w-full p-5 space-y-6">

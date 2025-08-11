@@ -1,5 +1,5 @@
 import React from "react";
-import logoImg from '../assets/p_logo.avif';
+import logoImg from '../assets/p_logo.png';
 import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
 
         {/* Logo */}
         <div>
-          <img src={logoImg} alt="logo" className="h-20 rounded-full w-auto" />
+          <img src={logoImg} alt="logo" className="h-20 p-3 w-auto" />
         </div>
 
         {/* Desktop Nav */}
