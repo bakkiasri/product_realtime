@@ -42,11 +42,11 @@ function Product() {
 
   return (
     <>
-      <div className="container mx-auto bg-gray-100">
+      <div className="container mx-auto overflow-hidden bg-gray-100">
         <Navbar />
         <div className="px-4 p-5 gap-5">
           {/* Search Box and Category Select */}
-          <div className="mt-4 ps-25 flex gap-6">
+          <div className="mt-4 ps-1 md:ps-25 lg:ps-25  flex gap-6">
             <div className="flex rounded-full overflow-hidden">
               <input
                 type="search"
@@ -81,7 +81,7 @@ function Product() {
               <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 border-solid"></div>
             </div>
           ) : (
-            <div className="px-20 mt-8">
+            <div className="px-3 md:px-20 lg:px-20 mt-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
                 {filteredProducts.length > 0 ? (
                   filteredProducts.map((product) => (
