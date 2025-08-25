@@ -7,7 +7,7 @@ function Contact() {
   
   <div className="flex-row justify-center items-center  container mx-auto  ">
     <Navbar />
-            <div className="grid flex  lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-4 lg:p-10 bg-[#F7F8FB]">
+    <div className="grid flex  lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-4 lg:p-10 bg-[#F7F8FB]">
 
     <div className="flex-1 justify-center items-center px-2 md:px-25 p-4">
       <h2 className='text-4xl font-medium text-[#100B39] mb-4'>Contact Us</h2>

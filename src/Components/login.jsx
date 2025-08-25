@@ -62,7 +62,6 @@ function Login() {
             {/* Error Message */}
             {error && <div className="text-red-600 text-sm">{error}</div>}
 
-           
             {/* <div className="text-red-800 text-xs cursor-pointer">
               Click here to register?
             </div> */}
@@ -75,6 +74,7 @@ function Login() {
               >
                 Login
               </button>
+              admin 12345
             </div>
           </form>
         </div>

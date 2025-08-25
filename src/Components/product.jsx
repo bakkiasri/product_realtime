@@ -45,7 +45,6 @@ function Product() {
       <div className="container mx-auto overflow-hidden bg-gray-100">
         <Navbar />
         <div className="px-4 p-5 gap-5">
-          {/* Search Box and Category Select */}
           <div className="mt-4 ps-1 md:ps-25 lg:ps-25  flex gap-6">
             <div className="flex rounded-full overflow-hidden">
               <input
