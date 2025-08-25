@@ -74,8 +74,8 @@ function Login() {
               >
                 Login
               </button>
-              admin 12345
             </div>
+            <div className="flex justify-center text-muted">admin 12345</div>
           </form>
         </div>
 
